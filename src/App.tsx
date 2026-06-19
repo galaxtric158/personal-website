@@ -238,7 +238,7 @@ function HomePage({ sound }: { sound: ReturnType<typeof useSound> }) {
           </h1>
 
           <p className="text-base md:text-lg max-w-xl mx-auto mb-8 leading-relaxed animate-fade-in-up text-ink-500" style={{ animationDelay: '160ms' }}>
-            A curious middle-school student who codes, draws, and debates. Building projects that bridge creativity and technology.
+            me. middle-school. ambitious.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 animate-fade-in-up" style={{ animationDelay: '240ms' }}>
