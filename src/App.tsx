@@ -238,7 +238,7 @@ function HomePage({ sound }: { sound: ReturnType<typeof useSound> }) {
           </h1>
 
           <p className="text-base md:text-lg max-w-xl mx-auto mb-8 leading-relaxed animate-fade-in-up text-ink-500" style={{ animationDelay: '160ms' }}>
-            me. middle-school. ambitious.
+            me, middle-school, ambitious.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 animate-fade-in-up" style={{ animationDelay: '240ms' }}>
@@ -269,8 +269,8 @@ function HomePage({ sound }: { sound: ReturnType<typeof useSound> }) {
               <div>
                 <span className="text-bubble-600 text-xs font-mono font-bold tracking-wider uppercase mb-3 block">About Me</span>
                 <h2 className="font-display text-3xl md:text-4xl font-bold mb-5 text-ink-900">Bridging <span className="gradient-text">Art & Code</span></h2>
-                <p className="text-sm leading-relaxed mb-3 text-ink-500">I am a student at Tunas Muda School Meruya who finds joy in creating — whether that means writing Python scripts, designing digital illustrations, or debating complex topics.</p>
-                <p className="text-sm leading-relaxed text-ink-500">From building voice AI assistants to freelancing as a 2D artist, I believe the best work happens when creativity meets technical skill.</p>
+                <p className="text-sm leading-relaxed mb-3 text-ink-500">I am a student at Tunas Muda School Meruya who finds joy in creating, whether that means writing Python scripts, designing digital illustrations, or debating complex topics.</p>
+                <p className="text-sm leading-relaxed text-ink-500">From building voice AI assistants to freelancing as a 2D artist, I believe the best work happens when creativity meets technical skill. (pls send me a dm if you're interested in commissions)</p>
               </div>
               <div className="grid grid-cols-2 gap-3">
                 {[
