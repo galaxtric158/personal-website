@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-cream-50 text-ink-900 font-sans;
+  }
+
+  ::selection {
+    @apply bg-bubble-200 text-ink-900;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-bubble-600 to-sky-500 bg-clip-text text-transparent;
+  }
+
+  .card {
+    @apply bg-white rounded-3xl border border-ink-200/60 shadow-soft;
+  }
+
+  .card-hover {
+    @apply card transition-all duration-200 hover:shadow-soft-lg hover:-translate-y-0.5 hover:border-bubble-300/50 active:scale-[0.98];
+  }
+
+  .tag {
+    @apply inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-mono font-bold bg-bubble-50 text-bubble-700 border border-bubble-200/60;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl bg-bubble-600 text-white font-semibold text-sm shadow-flat hover:bg-bubble-500 hover:shadow-flat-lg hover:-translate-y-0.5 active:scale-95 active:shadow-none transition-all duration-150;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl bg-white text-ink-700 font-semibold text-sm border border-ink-200 shadow-flat hover:bg-bubble-50 hover:border-bubble-300 hover:-translate-y-0.5 active:scale-95 active:shadow-none transition-all duration-150;
+  }
+}
